@@ -1,0 +1,112 @@
+/*====================
+=======Structure======
+======================*/
+
+header{
+   
+}
+
+main{
+   
+}
+
+/*====================
+========Columns=======
+======================*/
+
+.desktop-one-column{
+    width: 100%;
+}
+
+.desktop-one-column .column{
+    width: 100%;
+}
+
+.desktop-two-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns .column{
+    width: 48%;
+}
+
+.desktop-two-columns-aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-aside .column-aside{
+    width: 30%;
+}
+
+.desktop-two-columns-aside .column-main{
+    width: 65%;
+}
+
+.desktop-two-columns-inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-inline .column{
+    width: 48%;
+}
+
+.desktop-two-columns-inline .column div{
+    display: flex;
+    margin-right: 1em;
+}
+
+.desktop-three-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-three-columns .column{
+    width: 30%;
+}
+
+.desktop-four-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-four-columns .column{
+    width: 22%;
+}
+
+/*====================
+======Typography======
+======================*/
+
+h1, h2, h3, h4, h5, h6, a, p{
+    color: hsl(0, 0%, 0%);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Roboto";
+}
+
+h5, h6 {
+    font-family: "Roboto Condensed";
+}
+
+a, td, p, button, span{
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+
+/*====================
+========Image=========
+======================*/
+
+img {
+    max-width: 100%;
+}
