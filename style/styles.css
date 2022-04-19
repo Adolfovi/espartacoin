@@ -19,10 +19,17 @@ main{
 .middle-header-right-side-header-menu{
     display: inline-block;
     margin-left: 1rem;
+    font-weight: bolder;
 }
 
 .middle-header-left-side{
     display: flex;
+    align-items: center;
+}
+
+.middle-header .middle-header-left-side .middle-header-left-side-image img{
+    width: 2.5rem;
+    margin-right: 0.5rem;
 }
 
 main .faq ul{
