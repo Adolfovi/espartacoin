@@ -495,24 +495,17 @@ header {
   width: 100%;
 }
 
-.middle-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  background-color: #ff8f6c;
-}
-
-.middle-header-left-side-image img {
-  width: 2rem;
-}
-
-.middle-header-left-side-title h2 {
-  margin-left: 0.2rem;
+.bolder {
+  font-weight: bolder;
 }
 
 .banner div {
   width: 100%;
+}
+
+.featured-text {
+  color: black;
+  font-weight: bolder;
 }
 
 .banner-image {
@@ -546,9 +539,35 @@ header {
   background-color: #ff6670;
 }
 
-.row {
+.center {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.middle-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #ff8f6c;
+}
+
+.middle-header-left-side-image img {
+  width: 2rem;
+}
+
+.middle-header-left-side-title h2 {
+  margin-left: 0.2rem;
+}
+
+.merchan-element {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .nav-menu {
@@ -559,6 +578,22 @@ header {
 .nav-menu li {
   margin-left: 0.8rem;
   font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  margin: 1rem 0 0.5rem 0;
+  font-weight: bolder;
+}
+
+.type {
+  margin: 0 0 0.5rem 0;
+  font-weight: bolder;
+  color: #c86040;
 }
 
 /*# sourceMappingURL=app.css.map */
