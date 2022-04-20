@@ -65,3 +65,9 @@
 .info-bottom{
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 341px) {
+    .banner-button{
+        font-size: 1.8rem;
+    }
+}
