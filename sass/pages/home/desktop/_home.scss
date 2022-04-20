@@ -57,6 +57,7 @@
 .featured-text{
     color: black;
     font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 .featured-text-big{
@@ -115,12 +116,18 @@
 .title{
     margin: 1rem 0 0.5rem 0;
     font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 .type{
     margin: 0 0 0.5rem 0;
     font-weight: bolder;
     color: $primary-color-dark;
+    font-size: 1.5rem;
+}
+
+.description{
+    font-size: 1.5rem;
 }
 
 .vertical-spaced{
