@@ -377,7 +377,7 @@ video {
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
-  color: hsl(0deg, 0%, 100%);
+  color: black;
 }
 
 h1, h2, h3, h4 {
@@ -610,20 +610,20 @@ header {
   justify-content: space-evenly;
 }
 
-.title {
+.merchan-element-title {
   margin: 1rem 0 0.5rem 0;
   font-weight: bolder;
   font-size: 1.5rem;
 }
 
-.type {
+.merchan-element-type {
   margin: 0 0 0.5rem 0;
   font-weight: bolder;
   color: #c86040;
   font-size: 1.5rem;
 }
 
-.description {
+.merchan-element-description {
   font-size: 1.5rem;
 }
 
