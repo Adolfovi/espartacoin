@@ -59,18 +59,15 @@
     margin-bottom: 1rem;
 }
 
-.featured-text{
+.image-spartacoin img{
+    max-width: 100%;
+}
+
+.info-bottom p{
+    line-height: 8rem;
     color: black;
     font-weight: bolder;
     font-size: 1.5rem;
-}
-
-.featured-text-big{
-    font-size: 1.8rem;
-}
-
-.image-spartacoin img{
-    max-width: 100%;
 }
 
 .middle-header{
@@ -113,25 +110,20 @@
     flex-direction: row;
 }
 
-.spaced-for-flex{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.merchan-element-title{
+.merchan-element h2{
     margin: 1rem 0 0.5rem 0;
     font-weight: bolder;
     font-size: 1.5rem;
 }
 
-.merchan-element-type{
+.merchan-element span{
     margin: 0 0 0.5rem 0;
     font-weight: bolder;
     color: $primary-color-dark;
     font-size: 1.5rem;
 }
 
-.merchan-element-description{
+.merchan-element p{
     font-size: 1.5rem;
 }
 

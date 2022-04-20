@@ -440,7 +440,7 @@ header {
 
 .desktop-five-columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 .desktop-five-columns > .column {
@@ -449,7 +449,7 @@ header {
 
 .desktop-four-columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 .desktop-four-columns > .column {
@@ -458,7 +458,7 @@ header {
 
 .desktop-three-columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 .desktop-three-columns > .column {
@@ -467,7 +467,7 @@ header {
 
 .desktop-two-columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 .desktop-two-columns > .column {
@@ -476,7 +476,7 @@ header {
 
 .desktop-two-columns-aside {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 .desktop-two-columns-aside > .column-aside {
@@ -553,18 +553,15 @@ header {
   margin-bottom: 1rem;
 }
 
-.featured-text {
+.image-spartacoin img {
+  max-width: 100%;
+}
+
+.info-bottom p {
+  line-height: 8rem;
   color: black;
   font-weight: bolder;
   font-size: 1.5rem;
-}
-
-.featured-text-big {
-  font-size: 1.8rem;
-}
-
-.image-spartacoin img {
-  max-width: 100%;
 }
 
 .middle-header {
@@ -605,25 +602,20 @@ header {
   flex-direction: row;
 }
 
-.spaced-for-flex {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.merchan-element-title {
+.merchan-element h2 {
   margin: 1rem 0 0.5rem 0;
   font-weight: bolder;
   font-size: 1.5rem;
 }
 
-.merchan-element-type {
+.merchan-element span {
   margin: 0 0 0.5rem 0;
   font-weight: bolder;
   color: #c86040;
   font-size: 1.5rem;
 }
 
-.merchan-element-description {
+.merchan-element p {
   font-size: 1.5rem;
 }
 
