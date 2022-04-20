@@ -467,6 +467,14 @@ a:hover, a:focus {
   width: 100%;
 }
 
+.banner-title {
+  display: none;
+}
+
+.banner-button {
+  top: 6.5rem;
+}
+
 .desktop-two-columns {
   flex-direction: column;
 }
@@ -485,12 +493,10 @@ a:hover, a:focus {
   width: 100%;
 }
 
-.banner-title {
-  display: none;
-}
-
-.banner-button {
-  top: 6.5rem;
+.image-spartacoin {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .merchan-element {
@@ -519,6 +525,14 @@ a:hover, a:focus {
 .featured-text {
   font-size: 2rem;
   margin-left: 1rem;
+}
+
+.featured-text-big {
+  font-size: 1.8rem;
+}
+
+.info-bottom {
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=mobile-app.css.map */
