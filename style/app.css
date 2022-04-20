@@ -532,6 +532,11 @@ header {
   z-index: 1001;
   left: 2rem;
   font-size: 2rem;
+  cursor: pointer;
+}
+
+.banner-button span:hover {
+  background-color: #c73145;
 }
 
 .banner-button span {

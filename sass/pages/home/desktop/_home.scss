@@ -37,6 +37,11 @@
     z-index: 1001;
     left: 2.0rem;
     font-size: 2rem;
+    cursor: pointer;
+}
+
+.banner-button span:hover{
+    background-color: $secondary-color-dark;    
 }
 
 
