@@ -1,0 +1,52 @@
+.desktop-two-columns{
+    flex-direction: column;
+}
+
+.desktop-two-columns .column{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.desktop-four-columns{
+    flex-direction: column;
+}
+
+.desktop-four-columns .column{
+    width: 100%;
+}
+
+.banner-title{
+    display: none;
+}
+
+.banner-button{
+    top: 6.5rem;
+}
+
+.merchan-element{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.type{
+    font-size: 2rem;
+}
+
+.description{
+    font-size: 2rem;
+}
+
+.featured-text{
+    font-size:2.0rem;
+}
