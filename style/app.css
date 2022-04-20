@@ -499,13 +499,10 @@ header {
   font-weight: bolder;
 }
 
-.banner div {
-  width: 100%;
-}
-
-.featured-text {
-  color: black;
-  font-weight: bolder;
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-image {
@@ -517,8 +514,8 @@ header {
   color: white;
   position: absolute;
   z-index: 1001;
-  top: 8rem;
-  left: 1rem;
+  top: 4.5rem;
+  left: 2rem;
   font-size: 2rem;
 }
 
@@ -531,9 +528,9 @@ header {
 .banner-button {
   color: white;
   position: absolute;
-  top: 12.5rem;
+  top: 8.8rem;
   z-index: 1001;
-  left: 1rem;
+  left: 2rem;
   font-size: 2rem;
 }
 
@@ -549,6 +546,19 @@ header {
   justify-content: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.featured-text {
+  color: black;
+  font-weight: bolder;
+}
+
+.featured-text-big {
+  font-size: 2.8rem;
+}
+
+.image-spartacoin img {
+  max-width: 100%;
 }
 
 .middle-header {
@@ -589,6 +599,11 @@ header {
   flex-direction: row;
 }
 
+.spaced-for-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .title {
   margin: 1rem 0 0.5rem 0;
   font-weight: bolder;
@@ -598,6 +613,16 @@ header {
   margin: 0 0 0.5rem 0;
   font-weight: bolder;
   color: #c86040;
+}
+
+.vertical-spaced {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.vertical-aligned-text {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=app.css.map */
