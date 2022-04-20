@@ -28,13 +28,15 @@
 
 .banner-title span{
     background-color: $secondary-color;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 
 .banner-button{
     color: white;
     position: absolute;
-    top: 12rem;
+    top: 12.5rem;
     z-index: 1001;
     left: 1rem;
     font-size: 2rem;
@@ -43,6 +45,8 @@
 
 .banner-button span{
     background-color: $secondary-color;    
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .center{

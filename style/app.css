@@ -524,12 +524,14 @@ header {
 
 .banner-title span {
   background-color: #ff6670;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .banner-button {
   color: white;
   position: absolute;
-  top: 12rem;
+  top: 12.5rem;
   z-index: 1001;
   left: 1rem;
   font-size: 2rem;
@@ -537,6 +539,8 @@ header {
 
 .banner-button span {
   background-color: #ff6670;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .center {
