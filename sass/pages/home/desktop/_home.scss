@@ -1,0 +1,69 @@
+.middle-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: $primary-color;
+}
+
+.middle-header-left-side-image img{
+    width: 2rem;
+}
+
+.middle-header-left-side-title h2{
+    margin-left: 0.2rem;
+}
+
+.banner div{
+    width: 100%;
+}
+
+.banner-image{
+    z-index: 1000;
+    position: relative;
+}
+
+.banner-title{
+    color: white;
+    position: absolute;
+    z-index: 1001;
+    top: 8rem;
+    left: 1rem;
+    font-size: 2rem;
+}
+
+.banner-title span{
+    background-color: $secondary-color;
+}
+
+
+.banner-button{
+    color: white;
+    position: absolute;
+    top: 12rem;
+    z-index: 1001;
+    left: 1rem;
+    font-size: 2rem;
+}
+
+
+.banner-button span{
+    background-color: $secondary-color;    
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu li{
+    margin-left: 0.8rem;
+    font-weight: bolder;
+}
+
