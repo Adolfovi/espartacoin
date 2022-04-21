@@ -545,6 +545,14 @@ header {
   border-radius: 0.5rem;
 }
 
+.category-merchans-container {
+  margin: 4rem 0 0 2rem;
+}
+
+.category-merchans-products {
+  line-height: 2rem;
+}
+
 .center {
   display: flex;
   align-items: center;
