@@ -651,7 +651,7 @@ header {
 .phone-number {
   display: flex;
   align-items: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
   margin-top: 0.5rem;
 }
 
@@ -662,7 +662,7 @@ header {
 .email {
   display: flex;
   align-items: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 }
 
 .email-email-icon {
@@ -672,7 +672,7 @@ header {
 .location {
   display: flex;
   align-items: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 }
 
 .location-location-icon {
@@ -682,7 +682,7 @@ header {
 .schedule {
   display: flex;
   align-items: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 }
 
 .schedule-schedule-icon {
@@ -692,7 +692,7 @@ header {
 .hour {
   display: flex;
   align-items: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 }
 
 .hour-hour-icon {
@@ -705,6 +705,10 @@ header {
   justify-content: space-between;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
+}
+
+.label div span {
+  font-weight: bolder;
 }
 
 .input {
@@ -784,6 +788,26 @@ input {
 textarea {
   border: 0;
   border-radius: 0.2rem;
+}
+
+.phone-number-phone-text span {
+  font-weight: bolder;
+}
+
+.email-email-text span {
+  font-weight: bolder;
+}
+
+.location-location-text span {
+  font-weight: bolder;
+}
+
+.schedule-schedule-text span {
+  font-weight: bolder;
+}
+
+.hour-hour-text span {
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=app.css.map */
