@@ -553,10 +553,6 @@ header {
   margin-bottom: 1rem;
 }
 
-.image-spartacoin img {
-  max-width: 100%;
-}
-
 .info-bottom p {
   line-height: 8rem;
   color: black;
@@ -600,6 +596,10 @@ header {
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.merchan-element-image img {
+  width: 200rem;
 }
 
 .merchan-element-title h2 {
