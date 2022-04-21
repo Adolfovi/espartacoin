@@ -290,6 +290,7 @@
     padding: 0.5rem 2rem 0.5rem 2rem;
     border-radius: 0.8rem;
     background-color: $primary-color-dark;
+    background-image: linear-gradient(to right, $primary-color-dark , $primary-color);
     cursor: pointer;
 }
 

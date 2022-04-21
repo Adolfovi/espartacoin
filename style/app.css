@@ -777,6 +777,7 @@ header {
   padding: 0.5rem 2rem 0.5rem 2rem;
   border-radius: 0.8rem;
   background-color: #c86040;
+  background-image: linear-gradient(to right, #c86040, #ff8f6c);
   cursor: pointer;
 }
 
