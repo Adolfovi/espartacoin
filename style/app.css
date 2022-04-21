@@ -653,9 +653,17 @@ header {
   align-items: center;
 }
 
+.phone-number-phone-icon {
+  margin-right: 0.5rem;
+}
+
 .email {
   display: flex;
   align-items: center;
+}
+
+.email-email-icon {
+  margin-right: 0.5rem;
 }
 
 .location {
@@ -663,14 +671,26 @@ header {
   align-items: center;
 }
 
+.location-location-icon {
+  margin-right: 0.5rem;
+}
+
 .schedule {
   display: flex;
   align-items: center;
 }
 
+.schedule-schedule-icon {
+  margin-right: 0.5rem;
+}
+
 .hour {
   display: flex;
   align-items: center;
+}
+
+.hour-hour-icon {
+  margin-right: 0.5rem;
 }
 
 .label {
