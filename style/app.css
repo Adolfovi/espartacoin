@@ -633,6 +633,11 @@ header {
   font-size: 1.5rem;
 }
 
+.contact {
+  padding: 0 5%;
+  width: 90%;
+}
+
 .form-title {
   align-items: center;
   margin-top: 4rem;
