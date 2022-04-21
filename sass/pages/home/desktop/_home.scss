@@ -240,9 +240,18 @@
     width: 50%;
 }
 
+.input-name input {
+    width: 90%;
+}
+
 .input-surname {
     width: 50%;
 }
+
+.input-surname input {
+    width: 90%;
+}
+
 
 .label-phone {
     width: 50%;
@@ -256,8 +265,16 @@
     width: 50%;
 }
 
+.input-phone input {
+    width: 90%;
+}
+
 .input-mail {
     width: 50%;
+}
+
+.input-mail input {
+    width: 90%;
 }
 
 .input-message{
@@ -282,7 +299,7 @@
     margin-top: 2rem;
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 8rem;
+    margin-right: 2rem;
 }
 
 .send button{
@@ -302,6 +319,7 @@ input{
 textarea{
     border: 0;
     border-radius: 0.2rem;
+    width: 95%;
 }
 
 .phone-number-phone-text span {
