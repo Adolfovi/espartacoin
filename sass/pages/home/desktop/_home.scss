@@ -110,20 +110,28 @@
     flex-direction: row;
 }
 
-.merchan-element h2{
-    margin: 1rem 0 0.5rem 0;
+.merchan-element-title h2{
     font-weight: bolder;
     font-size: 1.5rem;
 }
 
-.merchan-element span{
+.merchan-element-title{
+    margin: 1rem 0 0.5rem 0;
+}
+
+.merchan-element-category{
     margin: 0 0 0.5rem 0;
+}
+
+.merchan-element-category span{
     font-weight: bolder;
     color: $primary-color-dark;
     font-size: 1.5rem;
 }
 
-.merchan-element p{
+.merchan-element-description{}
+
+.merchan-element-description p{
     font-size: 1.5rem;
 }
 
