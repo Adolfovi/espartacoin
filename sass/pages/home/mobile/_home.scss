@@ -83,3 +83,20 @@
         font-size: 1.8rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+.form-content .form-input{
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 350px) {
+    .banner-button{
+        font-size: 1.8rem;
+    }
+
+    .form-title{
+        margin-left: 1rem;
+    }
+}
