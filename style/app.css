@@ -651,6 +651,7 @@ header {
 .phone-number {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .phone-number-phone-icon {
@@ -660,6 +661,7 @@ header {
 .email {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .email-email-icon {
@@ -669,6 +671,7 @@ header {
 .location {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .location-location-icon {
@@ -678,6 +681,7 @@ header {
 .schedule {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .schedule-schedule-icon {
@@ -687,6 +691,7 @@ header {
 .hour {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .hour-hour-icon {
