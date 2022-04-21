@@ -767,6 +767,7 @@ header {
   padding: 0.5rem 2rem 0.5rem 2rem;
   border-radius: 0.8rem;
   background-color: #c86040;
+  cursor: pointer;
 }
 
 input {
