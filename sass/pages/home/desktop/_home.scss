@@ -1,20 +1,19 @@
-
-.bolder{
+.bolder {
     font-weight: bolder;
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.banner-image{
+.banner-image {
     z-index: 1000;
     position: relative;
 }
 
-.banner-title{
+.banner-title {
     color: white;
     position: absolute;
     z-index: 1001;
@@ -23,14 +22,14 @@
     font-size: 2rem;
 }
 
-.banner-title span{
+.banner-title span {
     background-color: $secondary-color;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
 
 
-.banner-button{
+.banner-button {
     color: white;
     position: absolute;
     top: 8.8rem;
@@ -40,41 +39,26 @@
     cursor: pointer;
 }
 
-.banner-button span:hover{
-    background-color: $secondary-color-dark;    
+.banner-button span:hover {
+    background-color: $secondary-color-dark;
 }
 
 
-.banner-button span{
-    background-color: $secondary-color;    
+.banner-button span {
+    background-color: $secondary-color;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
 
-.category-merchans-container{
+.category-merchans-container {
     margin: 4rem 0 0 2rem;
 }
 
-.category-merchans-products{
+.category-merchans-products {
     line-height: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,14 +66,14 @@
     margin-bottom: 1rem;
 }
 
-.info-bottom p{
+.info-bottom p {
     line-height: 8rem;
     color: black;
     font-weight: bolder;
     font-size: 1.5rem;
 }
 
-.middle-header{
+.middle-header {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
@@ -97,73 +81,152 @@
     background-color: $primary-color;
 }
 
-.middle-header-left-side-image img{
+.middle-header-left-side-image img {
     width: 2rem;
 }
 
-.middle-header-left-side-title h2{
+.middle-header-left-side-title h2 {
     margin-left: 0.2rem;
 }
 
 
 
-.merchan-element{
+.merchan-element {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     justify-content: flex-end;
 }
 
-.nav-menu li{
+.nav-menu li {
     margin-left: 0.8rem;
     font-weight: bolder;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
 }
 
-.merchan-element-image img{
+.merchan-element-image img {
     width: 200rem;
 }
 
-.merchan-element-title h2{
+.merchan-element-title h2 {
     font-weight: bolder;
     font-size: 1.5rem;
 }
 
-.merchan-element-title{
+.merchan-element-title {
     margin: 1rem 0 0.5rem 0;
 }
 
-.merchan-element-category{
+.merchan-element-category {
     margin: 0 0 0.5rem 0;
 }
 
-.merchan-element-category span{
+.merchan-element-category span {
     font-weight: bolder;
     color: $primary-color-dark;
     font-size: 1.5rem;
 }
 
-.merchan-element-description{}
+.merchan-element-description {}
 
-.merchan-element-description p{
+.merchan-element-description p {
     font-size: 1.5rem;
 }
 
-.vertical-spaced{
+
+.form-title {
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.vertical-spaced {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.vertical-aligned-text{
+.vertical-aligned-text {
     display: flex;
     align-items: center;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.schedule {
+    display: flex;
+    align-items: center;
+}
+
+.hour {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.label-name {
+    width: 50%;
+}
+
+.label-surname {
+    width: 50%;
+}
+
+.input-name {
+    width: 50%;
+}
+
+.input-surname {
+    width: 50%;
+}
+
+.label-phone {
+    width: 50%;
+}
+
+.label-mail {
+    width: 50%;
+}
+
+.input-phone {
+    width: 50%;
+}
+
+.input-mail {
+    width: 50%;
+}
+
+.input-message{
+    width: 100%;
 }
