@@ -721,4 +721,30 @@ header {
   width: 100%;
 }
 
+.form-content {
+  margin-top: 2rem;
+}
+
+.form-info {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.send {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 8rem;
+}
+
+.send button {
+  border: 0;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 0.8rem;
+  background-color: #c86040;
+}
+
 /*# sourceMappingURL=app.css.map */
