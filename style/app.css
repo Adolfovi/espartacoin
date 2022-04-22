@@ -433,6 +433,11 @@ main {
   align-items: center;
 }
 
+::selection {
+  background-color: #c86040;
+  color: #ffc09b;
+}
+
 header {
   background-color: #ff8f6c;
   padding: 0.5rem;
