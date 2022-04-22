@@ -1,6 +1,6 @@
 .desktop-five-columns{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 
     & > .column{
@@ -10,7 +10,7 @@
 
 .desktop-four-columns{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 
     & > .column{
@@ -20,7 +20,7 @@
 
 .desktop-three-columns{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 
     & > .column{
@@ -30,7 +30,7 @@
 
 .desktop-two-columns{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 
     & > .column{
@@ -40,7 +40,7 @@
 
 .desktop-two-columns-aside{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 
     & > .column-aside{
