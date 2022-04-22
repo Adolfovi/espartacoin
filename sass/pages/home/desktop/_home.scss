@@ -50,14 +50,6 @@
     border-radius: 0.5rem;
 }
 
-.category-merchans-container {
-    margin: 4rem 0 0 2rem;
-}
-
-.category-merchans-products {
-    line-height: 2rem;
-}
-
 .center {
     display: flex;
     align-items: center;
@@ -89,13 +81,6 @@
     margin-left: 0.2rem;
 }
 
-.merchan-element {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
 .nav-menu {
     display: flex;
     justify-content: flex-end;
@@ -110,33 +95,3 @@
     display: flex;
     flex-direction: row;
 }
-
-.merchan-element-image img {
-    width: 200rem;
-}
-
-.merchan-element-title h2 {
-    font-weight: bolder;
-    font-size: 1.5rem;
-}
-
-.merchan-element-title {
-    margin: 1rem 0 0.5rem 0;
-}
-
-.merchan-element-category {
-    margin: 0 0 0.5rem 0;
-}
-
-.merchan-element-category span {
-    font-weight: bolder;
-    color: $primary-color-dark;
-    font-size: 1.5rem;
-}
-
-.merchan-element-description {}
-
-.merchan-element-description p {
-    font-size: 1.5rem;
-}
-
