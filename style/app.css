@@ -797,10 +797,6 @@ textarea {
   width: 15rem;
 }
 
-#type-products option {
-  font-weight: bolder;
-}
-
 .merchan-element {
   display: flex;
   flex-direction: column;
