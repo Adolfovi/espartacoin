@@ -1,3 +1,9 @@
+#type-products {
+    border: 0;
+    padding: 0.5rem;
+    width: 15rem;
+}
+
 .merchan-element {
     display: flex;
     flex-direction: column;
@@ -44,7 +50,7 @@
 }
 
 .results-products-container{
-    margin: 4.6rem 0 0 2rem;
+    margin: 4.6rem 0 0 0rem;
 }
 
 .results-products-total span {
@@ -54,7 +60,6 @@
 .results-products-info {
     display: flex;
     justify-content: space-between;
-    margin-right: 2rem;
 }
 
 .results-products-elements {

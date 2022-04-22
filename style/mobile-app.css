@@ -565,5 +565,38 @@ a:hover, a:focus {
     margin-left: 1rem;
   }
 }
+.desktop-two-columns-aside {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-merchans-container {
+  margin: 4rem 0 0 0;
+}
+
+.desktop-two-columns-aside .column-aside {
+  width: 100%;
+}
+
+.desktop-two-columns-aside .column-main {
+  width: 100%;
+}
+
+.category-merchans-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.results-products-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
 
 /*# sourceMappingURL=mobile-app.css.map */
