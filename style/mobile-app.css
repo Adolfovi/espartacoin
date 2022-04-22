@@ -599,4 +599,12 @@ a:hover, a:focus {
   align-items: center;
 }
 
+.results-products-container {
+  border-left: 0;
+}
+
+.results-products-total {
+  margin-left: 0;
+}
+
 /*# sourceMappingURL=mobile-app.css.map */
