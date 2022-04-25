@@ -188,6 +188,7 @@ button,
 input {
   /* 1 */
   overflow: visible;
+  padding: 0;
 }
 
 /**
@@ -605,6 +606,10 @@ a:hover, a:focus {
 
 .results-products-total {
   margin-left: 0;
+}
+
+.info-merchan-product {
+  margin: 1rem 1rem 0 1rem;
 }
 
 /*# sourceMappingURL=mobile-app.css.map */
