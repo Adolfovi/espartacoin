@@ -849,7 +849,7 @@ header {
 }
 
 .cart {
-  margin: 6rem;
+  margin: 2rem;
 }
 
 .cart-image {
@@ -881,6 +881,7 @@ header {
 
 .cart-finishing-title {
   background-color: white;
+  padding: 0.2rem;
 }
 
 .cart-finishing .desktop-two-columns {
