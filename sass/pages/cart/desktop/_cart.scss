@@ -1,0 +1,60 @@
+.info-merchan-product-quantity form div input {
+    width: 2rem;
+    height: 1.9rem;
+    border: 0;
+    text-align: center;
+}
+
+.cart-image {
+    width: 5rem;
+}
+
+td {
+    text-align: center;
+    width: 10rem;
+}
+
+.cart-title {
+    text-align: center;
+}
+
+.cart-quantity {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-elements {
+    border-bottom: 0.2rem solid $primary-color-dark;
+    font-weight: bolder;
+}
+
+.cart-products {
+    height: 8rem;
+}
+
+table {
+    margin-top: 2rem;
+}
+
+.cart-finishing {
+    text-align: center;
+    border: 0.2rem solid white;
+}
+
+.cart-finishing-title {
+    background-color: white;
+}
+
+.cart-finishing .desktop-two-columns {
+    padding: 0.4rem;
+}
+
+.return {
+display: flex;
+justify-content: center;
+}
+
+.cart-buy {
+display: flex;
+justify-content: center;
+}
