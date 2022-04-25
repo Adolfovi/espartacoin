@@ -4,6 +4,9 @@
     width: 15rem;
 }
 
+.merchandising{
+    padding: 3rem;
+}
 
 .merchan-element {
     display: flex;
@@ -36,8 +39,6 @@
     font-size: 1.5rem;
 }
 
-.merchan-element-description {}
-
 .merchan-element-description p {
     font-size: 1.5rem;
 }
@@ -46,12 +47,7 @@
     line-height: 2rem;
 }
 
-.category-merchans-container {
-    margin: 4rem 0 0 2rem;
-}
-
 .results-products-container{
-    margin: 4.6rem 0 0 0rem;
     border-left: 0.4rem solid $primary-color-dark;
 }
 
