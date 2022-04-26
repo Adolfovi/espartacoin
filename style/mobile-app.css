@@ -616,4 +616,8 @@ a:hover, a:focus {
   margin-bottom: 1rem;
 }
 
+.checkout .desktop-two-columns .column {
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=mobile-app.css.map */
