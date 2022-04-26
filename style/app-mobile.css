@@ -481,43 +481,48 @@ header .slider {
 
 .mobile-five-columns {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
 }
 .mobile-five-columns > .column {
-  width: 18%;
+  width: 100%;
 }
 
 .mobile-four-columns {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
 }
 .mobile-four-columns > .column {
-  width: 22%;
+  width: 100%;
 }
 
 .mobile-three-columns {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
 }
 .mobile-three-columns > .column {
-  width: 30%;
+  width: 100%;
 }
 
 .mobile-two-columns {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
 }
 .mobile-two-columns > .column {
-  width: 48%;
+  width: 100%;
 }
 
 .mobile-one-column {
   width: 100%;
   display: block;
+  flex-direction: column;
 }
 .mobile-one-column > .column {
   width: 100%;
