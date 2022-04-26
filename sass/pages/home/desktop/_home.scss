@@ -17,7 +17,7 @@
     color: white;
     position: absolute;
     z-index: 1001;
-    top: 4.5rem;
+    top: 5.0rem;
     left: 2.0rem;
     font-size: 2rem;
 }
@@ -65,31 +65,7 @@
     font-size: 1.5rem;
 }
 
-.middle-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    background-color: $primary-color;
-}
 
-.middle-header-left-side-image img {
-    width: 2rem;
-}
-
-.middle-header-left-side-title h2 {
-    margin-left: 0.2rem;
-}
-
-.nav-menu {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.nav-menu li {
-    margin-left: 0.8rem;
-    font-weight: bolder;
-}
 
 .row {
     display: flex;

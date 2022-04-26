@@ -6,24 +6,6 @@
     top: 6.5rem;
 }
 
-.desktop-two-columns{
-    flex-direction: column;
-}
-
-.desktop-two-columns .column{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.desktop-four-columns{
-    flex-direction: column;
-}
-
-.desktop-four-columns .column{
-    width: 100%;
-}
-
 .merchan-element{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -39,7 +21,7 @@
 }
 
 
-.nav-menu{
+.nav-menu ul{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

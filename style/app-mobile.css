@@ -424,6 +424,61 @@ a:hover, a:focus {
   outline-offset: 0;
 }
 
+body {
+  background-color: #ffc09b;
+}
+
+main .banner-button span {
+  background-color: #ff6670;
+  position: absolute;
+  top: 6rem;
+  left: 1rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  font-weight: bolder;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: revert;
+}
+
+header {
+  background-color: #ff8f6c;
+  padding: 0.5rem;
+}
+header .middle-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #ff8f6c;
+}
+header .middle-header-left-side {
+  display: flex;
+}
+header .middle-header-left-side-image img {
+  width: 2rem;
+}
+header .middle-header-left-side-title h2 {
+  margin-left: 0.2rem;
+}
+header .nav-menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header .nav-menu li {
+  margin-left: 0.8rem;
+  font-weight: bolder;
+}
+header .slider {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .mobile-five-columns {
   display: flex;
   justify-content: space-between;
@@ -476,24 +531,6 @@ a:hover, a:focus {
   top: 6.5rem;
 }
 
-.desktop-two-columns {
-  flex-direction: column;
-}
-
-.desktop-two-columns .column {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.desktop-four-columns {
-  flex-direction: column;
-}
-
-.desktop-four-columns .column {
-  width: 100%;
-}
-
 .merchan-element {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -508,7 +545,7 @@ a:hover, a:focus {
   max-width: 100%;
 }
 
-.nav-menu {
+.nav-menu ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -620,4 +657,4 @@ a:hover, a:focus {
   flex-direction: column;
 }
 
-/*# sourceMappingURL=mobile-app.css.map */
+/*# sourceMappingURL=app-mobile.css.map */

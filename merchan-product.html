@@ -8,10 +8,8 @@
     <title>Espartacoin</title>
     <meta name="description" content="descripción de la web, se recomienda 90 caracteres">
     <meta name="keywords" content="palabras clave, separadas, por comas">
-    <link href="style/normalize.css" rel="stylesheet">
-    <link href="style/main.css" rel="stylesheet">
+    <link href="style/app-mobile.css" rel="stylesheet">
     <link href="style/app.css" rel="stylesheet">
-    <link rel="stylesheet" media="only screen and (max-width: 900px)" href="style/mobile-app.css">
 </head>
 
 <body>
@@ -26,15 +24,16 @@
                 </div>
             </div>
             <div class="column">
-                <ul class="nav-menu">
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="merchandising.html">MERCHANDISING</a></li>
-                    <li>QUE SOMOS</li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
-                </ul>
+                <div class="nav-menu desktop-only">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="merchandising.html">MERCHANDISING</a></li>
+                        <li>QUE SOMOS</li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-
     </header>
     <main>
         <div class="merchan-product">
@@ -81,17 +80,17 @@
                         </div>
 
                         <div class="info-merchan-product-quantity">
+                            <div>
+                                <button class="quantity-minus">-</button>
+                            </div>
+                            <form>
                                 <div>
-                                    <button class="quantity-minus">-</button>
+                                    <input value="1">
                                 </div>
-                                <form>
-                                    <div>
-                                        <input value="1">
-                                    </div>
-                                </form>
-                                <div>
-                                    <button class="quantity-plus">+</button>
-                                </div>
+                            </form>
+                            <div>
+                                <button class="quantity-plus">+</button>
+                            </div>
                         </div>
                         <div class="info-merchan-product-buy">
                             <button><a href="cart.html">Comprar</a></button>
