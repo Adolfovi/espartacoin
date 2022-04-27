@@ -1,84 +1,76 @@
-.banner-title{
+.bolder {
+    font-weight: bolder;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-image {
+    z-index: 1000;
+    position: relative;
+}
+
+.banner-title {
+    color: white;
+    position: absolute;
+    z-index: 1001;
+    top: 5rem;
+    left: 2rem;
+    font-size: 2rem;
     display: none;
 }
 
-.banner-button{
-    top: 6.5rem;
+.banner-title span {
+    background-color: $secondary-color;
+    display: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
-.merchan-element{
+
+.banner-button {
+    color: white;
+    position: absolute;
+    top: 0rem;
+    z-index: 1001;
+    width: 100%;
+    left: -0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.banner-button span:hover {
+    background-color: $secondary-color-dark;
+}
+
+
+.banner-button span {
+    background-color: $secondary-color;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.merchan-element-image img{
-    max-width: 100%;
-    width: 200rem;
+.info-bottom p {
+    line-height: 8rem;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
-.merchan-element-image{
-    max-width: 100%;
-}
 
 
-.nav-menu ul{
+.row {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.title{
-    font-size: 2rem;
-}
-
-.type{
-    font-size: 2rem;
-}
-
-.description{
-    font-size: 2rem;
-}
-
-.featured-text{
-    font-size:2.0rem;
-    margin-left: 1rem;
-}
-
-.featured-text-big{
-    font-size: 1.8rem;
-}
-
-.info-bottom{
-    margin-top: 1rem;
-}
-
-.info-bottom p{
-    margin: 0 1rem 0 1rem;
-}
-
-.form-info{
-    margin-bottom: 4rem;
-}
-
-@media screen and (max-width: 341px) {
-    .banner-button{
-        font-size: 1.8rem;
-    }
-}
-
-@media screen and (max-width: 450px) {
-.form-content .form-input{
-    display: none;
-}
-
-}
-
-@media screen and (max-width: 350px) {
-    .banner-button{
-        font-size: 1.8rem;
-    }
-
-    .form-title{
-        margin-left: 1rem;
-    }
+    flex-direction: row;
 }
