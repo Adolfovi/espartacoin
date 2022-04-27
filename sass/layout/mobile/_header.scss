@@ -37,6 +37,7 @@ header {
 #hamburger-menu-button {
     display: flex;
     justify-content: flex-end;
+    margin-top: -0.4rem;
 }
 
 #nav-menu-mobile {
@@ -44,14 +45,15 @@ header {
     background-color: #c86040;
     padding: 0.4rem;
     z-index: 1002;
-    top: -20rem;
-    transition: top 1s;
-    right: 0;
+    top: 4rem;
+    transition: right 1s;
+    right: -20rem;
     border-radius: 1rem 0 0 1rem;
 }
 
 #nav-menu-mobile.active {
-    top: 6rem;
+    top: 4rem;
+    right: 0rem;
 }
 
 #hamburger-menu-button-svg {

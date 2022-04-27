@@ -431,8 +431,8 @@ body {
 main .banner-button span {
   background-color: #ff6670;
   position: absolute;
-  top: 7rem;
-  left: 1rem;
+  top: 4rem;
+  left: 0.6rem;
   padding: 0.4rem;
   border-radius: 0.4rem;
   font-weight: bolder;
@@ -478,6 +478,7 @@ header .nav-menu li {
 #hamburger-menu-button {
   display: flex;
   justify-content: flex-end;
+  margin-top: -0.4rem;
 }
 
 #nav-menu-mobile {
@@ -485,14 +486,15 @@ header .nav-menu li {
   background-color: #c86040;
   padding: 0.4rem;
   z-index: 1002;
-  top: -20rem;
-  transition: top 1s;
-  right: 0;
+  top: 4rem;
+  transition: right 1s;
+  right: -20rem;
   border-radius: 1rem 0 0 1rem;
 }
 
 #nav-menu-mobile.active {
-  top: 6rem;
+  top: 4rem;
+  right: 0rem;
 }
 
 #hamburger-menu-button-svg {
@@ -668,7 +670,7 @@ header .nav-menu li {
 }
 
 .category-merchans-container {
-  margin: 4rem 0 0 0;
+  margin: 0 0 2rem 0;
 }
 
 .desktop-two-columns-aside .column-aside {
@@ -699,6 +701,111 @@ header .nav-menu li {
 
 .results-products-total {
   margin-left: 0;
+}
+
+#type-products {
+  border: 0;
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+.merchandising {
+  padding: 3rem;
+}
+
+.merchan-element {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.merchan-element-image img {
+  width: 200rem;
+}
+
+.merchan-element-title h2 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.merchan-element-title {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.merchan-element-category {
+  margin: 0 0 0.5rem 0;
+}
+
+.merchan-element-category span {
+  font-weight: bolder;
+  color: #c86040;
+  font-size: 1.5rem;
+}
+
+.merchan-element-description p {
+  font-size: 1.5rem;
+}
+
+.category-merchans-products {
+  line-height: 2rem;
+}
+
+.results-products-total {
+  margin-left: 1rem;
+}
+
+.results-products-total span {
+  font-weight: bolder;
+}
+
+.results-products-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.results-products-elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.element {
+  width: 15rem;
+  margin: 1rem;
+  position: relative;
+  border: 0.5rem solid white;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.element-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #ffc09b;
+}
+
+.element-price {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #c86040;
+  padding: 0.5rem;
+}
+
+.element-see {
+  display: flex;
+  flex-direction: column;
+  margin: 0.2rem;
+}
+
+.element-see button {
+  padding: 0.5rem;
+  background-image: linear-gradient(to right, #c86040, #ff8f6c);
+  border: 0;
+  cursor: pointer;
 }
 
 .info-merchan-product {
