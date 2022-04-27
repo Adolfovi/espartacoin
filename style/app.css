@@ -636,6 +636,9 @@ header .nav-menu li {
   padding: 0.3rem 5%;
   width: 90%;
 }
+.contact .contact-form .form-element .form-element-input input:focus {
+  background-color: #ffc9b4;
+}
 .contact .contact-form .form-element .form-element-input textarea {
   border: 0;
   border-radius: 0.2rem;
