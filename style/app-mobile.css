@@ -426,7 +426,6 @@ a:hover, a:focus {
 
 body {
   background-color: #ffc09b;
-  text-align: center;
 }
 
 main .banner-button span {
@@ -712,6 +711,67 @@ header .nav-menu li {
 
 .checkout .desktop-two-columns .column {
   flex-direction: column;
+}
+
+.contact {
+  padding: 0 15%;
+  width: 70%;
+}
+.contact .contact-title {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+.contact .contact-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contact .contact-info .contact-info-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.2rem;
+}
+.contact .contact-info .contact-info-option .contact-info-option-icon {
+  margin-right: 0.5rem;
+}
+.contact .contact-info .contact-info-option .contact-info-option-text span {
+  font-weight: 600;
+}
+.contact .contact-form .form-element {
+  margin-bottom: 0.5rem;
+}
+.contact .contact-form .form-element .form-element-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.contact .contact-form .form-element .form-element-input input {
+  border: 0;
+  border-radius: 0.2rem;
+  padding: 0.3rem 5%;
+  width: 90%;
+}
+.contact .contact-form .form-element .form-element-input input:focus {
+  background-color: #ffc9b4;
+}
+.contact .contact-form .form-element .form-element-input textarea {
+  border: 0;
+  border-radius: 0.2rem;
+  height: 20vh;
+  padding: 0.3rem 2%;
+  width: 96%;
+}
+.contact .contact-form .form-send-button {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.contact .contact-form .form-send-button button {
+  border: 0.2rem solid white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 0.8rem;
+  background-color: #c86040;
+  background-image: linear-gradient(to right, #c86040, #ff8f6c);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app-mobile.css.map */
