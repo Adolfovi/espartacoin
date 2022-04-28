@@ -711,6 +711,8 @@ header .nav-menu li {
   flex-direction: column;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
 }
 
 .merchan-element-image img {
