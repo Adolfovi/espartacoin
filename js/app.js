@@ -16,15 +16,15 @@ hamburger.addEventListener('click', () => {
 // botón más menos
 let minus = document.querySelector('.quantity-minus');
 let plus = document.querySelector('.quantity-plus');
-let quantity = document.querySelector('#input-quantity');
+let quantity = document.querySelector('.input-quantity');
 
 plus.addEventListener('click', () => {
     parseInt(quantity.value++);
 });
 
 minus.addEventListener('click', () => {
-    parseInt(quantity.value--);
-    if (quantity.value < 1) {
-        quantity.value = 1;
+    
+    if (quantity.value > 1) {
+        parseInt(quantity.value--);
     }
 });
