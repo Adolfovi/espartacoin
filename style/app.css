@@ -585,10 +585,11 @@ header .nav-menu li {
   justify-content: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .info-bottom p {
-  line-height: 8rem;
+  line-height: 2rem;
   color: black;
   font-weight: bolder;
   font-size: 1.5rem;
