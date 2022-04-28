@@ -713,6 +713,7 @@ header .nav-menu li {
   margin-right: 1rem;
   margin-bottom: 1rem;
   align-items: center;
+  text-align: center;
 }
 
 .merchan-element-image img {
