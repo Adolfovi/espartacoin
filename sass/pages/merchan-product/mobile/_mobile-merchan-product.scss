@@ -24,6 +24,25 @@ margin: 1rem 0 1rem 0;
     margin-top: 1rem;
 }
 
+.info-merchan-product-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1rem 0 1rem 0;
+}
+
+.info-merchan-product-tab {
+    margin-right: 1rem;
+    padding: 0.4rem;
+    background-color: red;
+    background-image: linear-gradient(to right, #c86040, #ff8f6c);
+    border-radius: 0.4rem;
+}
+
+.info-merchan-product-tab.active {
+    background-image: linear-gradient(to right, #803e2a, #e98567);
+}
+
 .info-merchan-product-description {
 font-size: 1.5rem;
 line-height: 4rem;

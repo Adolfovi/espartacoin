@@ -13,18 +13,52 @@ hamburger.addEventListener('click', () => {
 
 });
 
-// botón más menos
-let minus = document.querySelector('.quantity-minus');
-let plus = document.querySelector('.quantity-plus');
-let quantity = document.querySelector('.input-quantity');
+// arrays y bucles
 
-plus.addEventListener('click', () => {
-    parseInt(quantity.value++);
+let tabs = document.querySelectorAll('.info-merchan-product-tab');
+let minuses = document.querySelectorAll('.quantity-minus');
+let pluses = document.querySelectorAll('.quantity-plus');
+let quantities = document.querySelectorAll('.input-quantity');
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        tabs.forEach(tab => {
+            tab.classList.remove('active');
+        });      
+        tab.classList.toggle('active');
+    });
 });
 
-minus.addEventListener('click', () => {
-    
-    if (quantity.value > 1) {
-        parseInt(quantity.value--);
-    }
+
+
+
+
+
+
+
+
+pluses.forEach(plus => {
+
+    plus.addEventListener('click', () => {
+        quantities.forEach(quantity => {
+            parseInt(quantity.value++);
+
+        });
+
+    });
+
+
+});
+
+minuses.forEach(minus => {
+    minus.addEventListener('click', () => {
+        quantities.forEach(quantity => {
+            if (quantity.value > 1) {
+
+                parseInt(quantity.value--);
+            }
+        });
+
+    });
+
+
 });
