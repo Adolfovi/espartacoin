@@ -15,26 +15,21 @@ hamburger.addEventListener('click', () => {
 
 // arrays y bucles
 
-let tabs = document.querySelectorAll('.info-merchan-product-tab');
+// let tabs = document.querySelectorAll('.info-merchan-product-tab');
+
+// tabs.forEach(tab => {
+//     tab.addEventListener('click', () => {
+//         tabs.forEach(tab => {
+//             tab.classList.remove('active');
+//         });
+//         tab.classList.toggle('active');
+//     });
+// });
+
+
 let minuses = document.querySelectorAll('.quantity-minus');
 let pluses = document.querySelectorAll('.quantity-plus');
 let quantities = document.querySelectorAll('.input-quantity');
-tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-        tabs.forEach(tab => {
-            tab.classList.remove('active');
-        });      
-        tab.classList.toggle('active');
-    });
-});
-
-
-
-
-
-
-
-
 
 pluses.forEach(plus => {
 
@@ -61,4 +56,29 @@ minuses.forEach(minus => {
     });
 
 
+});
+
+// dataset
+
+let tabs = document.querySelectorAll(".tab");
+let tabsRelated = document.querySelectorAll(".tab-related");
+
+tabs.forEach(tab => {
+
+    tab.addEventListener('click', () => {
+ 
+        tabs.forEach(tab => {
+            tab.classList.remove('active');
+        });
+
+        tab.classList.add('active');
+
+        tabsRelated.forEach(tabRelated => {
+            tabRelated.classList.remove('active');
+
+            if (tab.dataset.elementtype == tabRelated.dataset.elementtype) {
+                tabRelated.classList.add('active');
+            }
+        });
+    });
 });

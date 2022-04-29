@@ -832,14 +832,14 @@ header .nav-menu li {
   margin-top: 1rem;
 }
 
-.info-merchan-product-tabs {
+.tabs {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   margin: 1rem 0 1rem 0;
 }
 
-.info-merchan-product-tab {
+.tab {
   margin-right: 1rem;
   padding: 0.4rem;
   background-color: red;
@@ -847,7 +847,7 @@ header .nav-menu li {
   border-radius: 0.4rem;
 }
 
-.info-merchan-product-tab.active {
+.tab.active {
   background-image: linear-gradient(to right, #803e2a, #e98567);
 }
 
@@ -911,6 +911,14 @@ header .nav-menu li {
 
 .merchan-product {
   margin: 2rem;
+}
+
+.tab-related {
+  display: none;
+}
+
+.tab-related.active {
+  display: block;
 }
 
 .cart {
