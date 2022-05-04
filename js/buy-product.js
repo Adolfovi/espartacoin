@@ -8,10 +8,11 @@ export let buyproduct = () => {
             notification.classList.add('active');
             setTimeout(() => {
                 notification.classList.remove('active');
-            }, 2500);
-            setTimeout(() => {
-                window.location.replace('index.html');
             }, 4000);
+            setTimeout(() => {
+                alert('Serás redirigido a la página principal');
+                window.location.replace('index.html');
+            }, 5000);
         });
 
     }

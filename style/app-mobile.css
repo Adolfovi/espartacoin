@@ -543,6 +543,7 @@ header .nav-menu li {
   padding: 0.4rem;
   display: block;
   z-index: 1004;
+  border-radius: 0.4rem;
 }
 
 .notification {
@@ -556,6 +557,7 @@ header .nav-menu li {
   padding: 0.4rem;
   display: block;
   z-index: 1004;
+  border-radius: 0.4rem;
 }
 
 .mobile-five-columns {
