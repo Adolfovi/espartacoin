@@ -5,7 +5,7 @@ export let buyproduct = () => {
     if (buyproduct) {
         buyproduct.addEventListener('click', () => {
             // success o diferente a success
-            notification("Has añadido un producto a la cesta", "success");
+            notification("Has añadido un producto a la cesta", "error");
         });
 
     }
