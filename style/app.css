@@ -529,6 +529,29 @@ header .nav-menu li {
   width: 100%;
 }
 
+.notification {
+  color: white;
+  font-family: Roboto, Arial;
+  position: fixed;
+  top: 1rem;
+  right: -20rem;
+  transition: right 1s;
+  padding: 0.4rem;
+  display: block;
+  z-index: 1004;
+  border-radius: 0.4rem;
+}
+.notification.active {
+  top: 1rem;
+  right: 1rem;
+}
+.notification.error {
+  background-color: #970000;
+}
+.notification.success {
+  background-color: #1e8100;
+}
+
 .bolder {
   font-weight: bolder;
 }

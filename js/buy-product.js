@@ -1,11 +1,18 @@
-import { notification } from './notification.js';
-
 export let buyproduct = () => {
     let buyproduct = document.querySelector('.buy-product');
+
     if (buyproduct) {
-        buyproduct.addEventListener('click', () => {
-            // success o diferente a success
-            notification("Has añadido un producto a la cesta", "error");
+
+        buyproduct.addEventListener('click', (event) => {
+
+            event.preventDefault();
+
+            document.dispatchEvent(new CustomEvent('message', {
+                detail: {
+                    text: 'Producto añadido a la cesta',
+                    type: 'success'
+                }
+            }));
         });
 
     }

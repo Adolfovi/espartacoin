@@ -10,7 +10,6 @@
         <meta name="keywords" content="palabras clave, separadas, por comas">
         <link href="style/app-mobile.css" rel="stylesheet">
         <!-- <link href="style/app.css" rel="stylesheet"> -->
-        <script type="module" src="js/app.js"></script>
     </head>
     
     
@@ -63,6 +62,9 @@
                 </div>
             </div>
         </div>
+        <div class="notification">
+            <div class="notification-text">asdasd</div>
+        </div>
     </header>
     <main>
         <div class="checkout">
@@ -78,35 +80,35 @@
             <div class="mobile-two-columns">
                 <div class="column">
                     <div class="checkout-form">
-                        <form action="/espartacoin.php">
+                        <form>
                             <div class="mobile-two-columns">
                                 <div class="column">
                                     <div class="checkout-form-element">
                                         <label for="firstname">Nombre</label>
-                                        <input type="text" name="firstname">
+                                        <input class="input-form" type="text" name="firstname">
                                     </div>
                                     <div class="checkout-form-element">
                                         <label for="telephone">Teléfono</label>
-                                        <input type="text" name="telephone">
+                                        <input class="input-form" type="text" name="telephone">
                                     </div>
                                     <div class="checkout-form-element">
                                         <label for="city">Ciudad</label>
-                                        <input type="text" name="city">
+                                        <input class="input-form" type="text" name="city">
                                     </div>
                                 </div>
 
                                 <div class="column">
                                     <div class="checkout-form-element">
                                         <label for="surname">Apellidos</label>
-                                        <input type="text" name="surname">
+                                        <input class="input-form" type="text" name="surname">
                                     </div>
                                     <div class="checkout-form-element">
                                         <label for="mail">Email</label>
-                                        <input type="text" name="mail">
+                                        <input class="input-form" type="text" name="mail">
                                     </div>
                                     <div class="checkout-form-element">
                                         <label for="postalcode">Código Postal</label>
-                                        <input type="text" name="postalcode">
+                                        <input class="input-form" type="text" name="postalcode">
                                     </div>
 
                                 </div>
@@ -119,7 +121,7 @@
 
                                         <label for="postalcode">Dirección</label>
 
-                                        <input type="text" name="direction">
+                                        <input class="input-form" type="text" name="direction">
 
                                     </div>
                                 </div>
@@ -188,6 +190,8 @@
 
         </div>
     </main>
+    <script type="module" src="js/app.js"></script>
+
 </body>
 
 </html>
