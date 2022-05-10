@@ -1,26 +1,13 @@
 export let renderTabs = () => {
-    
-    let tabs = document.querySelectorAll(".tab");
-    let tabsRelated = document.querySelectorAll(".tab-related");
+    let select = document.querySelector('.select-type');
+    let relateds = document.querySelectorAll('.type-related');
+    select.addEventListener('change', () => {
+        relateds.forEach(related => {
+            related.classList.remove('active');
+            if (select.value == related.dataset.elementtype) {
+                related.classList.add('active');
+            }
 
-    tabs.forEach(tab => {
-
-        tab.addEventListener('click', () => {
-    
-            tabs.forEach(tab => {
-                tab.classList.remove('active');
-            });
-
-            tab.classList.add('active');
-
-            tabsRelated.forEach(tabRelated => {
-                tabRelated.classList.remove('active');
-
-                if (tab.dataset.elementtype == tabRelated.dataset.elementtype) {
-                    tabRelated.classList.add('active');
-                }
-            });
         });
     });
-
 }

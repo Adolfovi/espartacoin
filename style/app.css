@@ -879,6 +879,26 @@ header .nav-menu li {
 
 .merchan-product {
   margin: 2rem;
+  width: 90%;
+}
+
+.types {
+  margin-bottom: 1rem;
+}
+
+.types select {
+  background-color: #ff8f6c;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+}
+
+.type-related {
+  display: none;
+  width: 16rem;
+}
+
+.type-related.active {
+  display: block;
 }
 
 .cart {
