@@ -571,7 +571,7 @@ header .nav-menu li {
   color: white;
   position: absolute;
   z-index: 1001;
-  top: 5rem;
+  top: 8rem;
   left: 2rem;
   font-size: 2rem;
 }
@@ -585,7 +585,7 @@ header .nav-menu li {
 .banner-button {
   color: white;
   position: absolute;
-  top: 8.8rem;
+  top: 12rem;
   z-index: 1001;
   left: 2rem;
   font-size: 2rem;
@@ -621,6 +621,10 @@ header .nav-menu li {
 .row {
   display: flex;
   flex-direction: row;
+}
+
+#hamburger-menu-button {
+  display: none;
 }
 
 .contact {

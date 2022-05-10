@@ -17,7 +17,7 @@
     color: white;
     position: absolute;
     z-index: 1001;
-    top: 5.0rem;
+    top: 8.0rem;
     left: 2.0rem;
     font-size: 2rem;
 }
@@ -32,7 +32,7 @@
 .banner-button {
     color: white;
     position: absolute;
-    top: 8.8rem;
+    top: 12.0rem;
     z-index: 1001;
     left: 2.0rem;
     font-size: 2rem;
@@ -71,4 +71,8 @@
 .row {
     display: flex;
     flex-direction: row;
+}
+
+#hamburger-menu-button {
+    display: none;
 }

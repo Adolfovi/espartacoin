@@ -4,7 +4,7 @@ import { renderMenuButton } from './menu-button.js';
 import { buyproduct } from './buy-product.js';
 import { renderNotification } from './notification.js';
 import { renderformcheckout } from './form-checkout.js';
-
+import { renderingresponsive } from './responsive.js';
 
 renderTabs();
 renderPlusMinusButton();
@@ -12,4 +12,4 @@ renderMenuButton();
 buyproduct();
 renderNotification();
 renderformcheckout();
-
+renderingresponsive();
