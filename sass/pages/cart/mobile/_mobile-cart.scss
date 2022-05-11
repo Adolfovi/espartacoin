@@ -5,8 +5,13 @@
 
 .cart-image {
     width: 5rem;
+    display: none;
 }
 
+.cart-finishing-container {
+    display: flex;
+    justify-content: center;
+}
 
 .cart-title {
     text-align: center;
@@ -30,6 +35,9 @@
 .cart-finishing {
     text-align: center;
     border: 0.2rem solid white;
+    border-top: 0;
+    width: 14rem;
+    margin-bottom: 1rem;
 }
 
 .cart-finishing-title {

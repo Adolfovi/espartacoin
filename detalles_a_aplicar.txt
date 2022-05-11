@@ -1,5 +1,0 @@
-- merchan-product (en una columna, no hay hamburguesa(hecho), dejar seleccionado por defecto descripción en los textos y que se vea el texto por defecto)(hecho)
-
-- merchandising (categorías debe ser un select, más margen abajo de "enseñando 20..." 
-
- - cart (sobran las imagenes para dar más aire a la tabla, un poco más de margen inferior a la caja de resumen)

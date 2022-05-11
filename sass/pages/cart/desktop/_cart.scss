@@ -1,10 +1,15 @@
-
 .cart {
     margin: 2rem;
 }
 
 .cart-image {
     width: 5rem;
+    display: none;
+}
+
+.cart-finishing-container {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -26,10 +31,12 @@
     height: 8rem;
 }
 
-
 .cart-finishing {
     text-align: center;
     border: 0.2rem solid white;
+    border-top: 0;
+    width: 14rem;
+    margin-bottom: 1rem;
 }
 
 .cart-finishing-title {
@@ -45,21 +52,21 @@
 .cart-buy {
     display: flex;
     justify-content: center;
-    }
-    
-    .cart-buy button {
-        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
-        font-size: 1rem;
-        border: 0.2rem solid white;
-        cursor: pointer;
-        background-image: linear-gradient(to right, #c86040, #ff8f6c);
-        font-weight: bolder;
-        border-radius: 0.5rem;
-    }
-    
-    .cart-buttons {
-        margin-top: 0.5rem;
-    }
+}
+
+.cart-buy button {
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    font-size: 1rem;
+    border: 0.2rem solid white;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #c86040, #ff8f6c);
+    font-weight: bolder;
+    border-radius: 0.5rem;
+}
+
+.cart-buttons {
+    margin-top: 0.5rem;
+}
 
 .info-merchan-product-quantity form div input {
     width: 2rem;
@@ -71,19 +78,19 @@
 .return {
     display: flex;
     justify-content: center;
-    }
-    
-    .return button {
-        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
-        font-size: 1rem;
-        border: 0.2rem solid white;
-        cursor: pointer;
-        background-image: linear-gradient(to right, #c86040, #ff8f6c);
-        font-weight: bolder;
-        border-radius: 0.5rem;
-    
-    }
-    
+}
+
+.return button {
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    font-size: 1rem;
+    border: 0.2rem solid white;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #c86040, #ff8f6c);
+    font-weight: bolder;
+    border-radius: 0.5rem;
+
+}
+
 
 td {
     text-align: center;
