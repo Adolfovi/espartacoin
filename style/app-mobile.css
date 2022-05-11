@@ -1183,6 +1183,14 @@ table {
   margin-bottom: 2rem;
 }
 
+.main-title h2 {
+  font-size: 1.6rem;
+}
+
+main {
+  font-size: 0.9rem;
+}
+
 .faqs-container {
   display: flex;
   flex-direction: column;
@@ -1198,24 +1206,28 @@ table {
   display: flex;
   align-items: center;
   margin-left: 0.4rem;
-  transform: rotateZ(90deg);
+  transform: rotateZ(180deg);
   transition: transform 0.3s;
 }
 
 .faq-arrow.active {
-  transform: rotateZ(270deg);
+  transform: rotateZ(0deg);
   transition: transform 0.3s;
 }
 
 .faq-submain {
   position: relative;
-  transform: rotateY(90deg);
+  transform: rotateX(90deg);
   transition: transform 0.3s;
 }
 
 .faq-submain.active {
-  transform: rotateY(0deg);
+  transform: rotateX(0deg);
   transition: transform 0.3s;
+}
+
+.faq-element {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=app-mobile.css.map */
