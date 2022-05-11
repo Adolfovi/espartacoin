@@ -20,23 +20,23 @@
     display: flex;
     align-items: center;
     margin-left: 0.4rem;
-    transform: rotateZ(0deg);
+    transform: rotateZ(90deg);
     transition: transform 0.3s;
 }
 
 .faq-arrow.active {
-    transform: rotateZ(180deg);
+    transform: rotateZ(270deg);
     transition: transform 0.3s;
 }
 
 
 .faq-submain {
     position: relative;
-    top: -100rem;
-    transition: top 2s;
+    transform: rotateY(90deg);
+    transition: transform 0.3s;
 }
 
 .faq-submain.active {
-    top: 0;
-    transition: top 1s;
+    transform: rotateY(0deg);
+    transition: transform 0.3s;
 }
