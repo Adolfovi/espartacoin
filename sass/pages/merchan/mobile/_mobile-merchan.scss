@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.category-merchans-container{
+.category-merchans-container {
     margin: 0 0 2rem 0;
 }
 
@@ -32,7 +32,7 @@
     align-items: center;
 }
 
-.results-products-container{
+.results-products-container {
     border-left: 0;
 }
 
@@ -40,26 +40,16 @@
     margin-left: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #type-products {
     border: 0;
     padding: 0.5rem;
     width: 15rem;
+    margin-top: 1rem;
+    background-color: $primary-color;
+    border-radius: 0.2rem;
 }
 
-.merchandising{
+.merchandising {
     padding: 3rem;
 }
 
@@ -124,7 +114,7 @@
     justify-content: center;
 }
 
-.element{
+.element {
     width: 15rem;
     margin: 1rem;
     position: relative;
@@ -156,8 +146,8 @@
 }
 
 .element-see button {
-padding: 0.5rem;
-background-image: linear-gradient(to right, $primary-color-dark , $primary-color);
-border: 0;
-cursor: pointer;
+    padding: 0.5rem;
+    background-image: linear-gradient(to right, $primary-color-dark , $primary-color);
+    border: 0;
+    cursor: pointer;
 }

@@ -1,4 +1,4 @@
-- merchan-product (en una columna, no hay hamburguesa, dejar seleccionado por defecto descripción en los textos y que se vea el texto por defecto)
+- merchan-product (en una columna, no hay hamburguesa(hecho), dejar seleccionado por defecto descripción en los textos y que se vea el texto por defecto)(hecho)
 
 - merchandising (categorías debe ser un select, más margen abajo de "enseñando 20..." 
 

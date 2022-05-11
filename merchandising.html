@@ -70,15 +70,15 @@
                         <div class="category-merchans-title">
                             <h2>Categorias</h2>
                         </div>
-                        <div class="category-merchans-products">
-                            <ul>
-                                <li>TODAS</li>
-                                <li>CAMISETAS</li>
-                                <li>GORRAS</li>
-                                <li>FUNDAS DE MÓVIL</li>
-                                <li>RELOJES</li>
-                            </ul>
-                        </div>
+                        <form action="/merchan.php">
+                            <select name="type-products" id="type-products">
+                                <option value="todos"><span>Todos</span></option>
+                                <option value="camisetas"><span>Camisetas</span></option>
+                                <option value="gorras"><span>Gorras</span></option>
+                                <option value="fundas-movil"><span>Fundas de móvil</span></option>
+                                <option value="relojes"><span>Relojes</span></option>
+                            </select>
+                        </form>
                     </div>
                 </div>
                 <div class="column-main">
@@ -88,15 +88,6 @@
                                 <span>Se están enseñando 20 de 100 productos</span>
                             </div>
                             <div class="results-products-selector">
-                                <form action="/merchan.php">
-                                    <select name="type-products" id="type-products">
-                                        <option value="todos"><span>Todos</span></option>
-                                        <option value="camisetas"><span>Camisetas</span></option>
-                                        <option value="gorras"><span>Gorras</span></option>
-                                        <option value="fundas-movil"><span>Fundas de móvil</span></option>
-                                        <option value="relojes"><span>Relojes</span></option>
-                                    </select>
-                                </form>
                             </div>
                         </div>
                         <div class="results-products-elements">

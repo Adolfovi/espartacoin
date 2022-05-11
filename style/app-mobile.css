@@ -748,6 +748,9 @@ header .nav-menu li {
   border: 0;
   padding: 0.5rem;
   width: 15rem;
+  margin-top: 1rem;
+  background-color: #ff8f6c;
+  border-radius: 0.2rem;
 }
 
 .merchandising {
@@ -874,30 +877,6 @@ header .nav-menu li {
   margin: 1rem 0 1rem 0;
 }
 
-.info-merchan-product {
-  margin-top: 1rem;
-}
-
-.tabs {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin: 1rem 0 1rem 0;
-  flex-wrap: wrap;
-}
-
-.tab {
-  margin-right: 1rem;
-  padding: 0.4rem;
-  background-color: red;
-  background-image: linear-gradient(to right, #c86040, #ff8f6c);
-  border-radius: 0.4rem;
-}
-
-.tab.active {
-  background-image: linear-gradient(to right, #803e2a, #e98567);
-}
-
 .info-merchan-product-description {
   font-size: 1.5rem;
   line-height: 4rem;
@@ -957,14 +936,26 @@ header .nav-menu li {
 }
 
 .merchan-product {
-  margin: 2rem;
+  margin: 1rem;
+  width: 90%;
 }
 
-.tab-related {
+.types {
+  margin-bottom: 1rem;
+}
+
+.types select {
+  background-color: #ff8f6c;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+}
+
+.type-related {
   display: none;
+  width: 16rem;
 }
 
-.tab-related.active {
+.type-related.active {
   display: block;
 }
 
