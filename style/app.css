@@ -1074,6 +1074,7 @@ table {
   position: relative;
   transform: rotateX(90deg);
   transition: transform 0.3s;
+  width: 17rem;
 }
 
 .faq-submain.active {
@@ -1082,7 +1083,7 @@ table {
 }
 
 .faq-element {
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 /*# sourceMappingURL=app.css.map */
