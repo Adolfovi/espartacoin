@@ -1039,4 +1039,8 @@ table {
   margin-bottom: 1rem;
 }
 
+.main-title h2 {
+  color: red;
+}
+
 /*# sourceMappingURL=app.css.map */
