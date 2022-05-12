@@ -29,12 +29,12 @@ main {
     align-items: center;
     margin-left: 0.4rem;
     transform: rotateZ(180deg);
-    transition: transform 0.3s;
+    transition: transform 1s;
 }
 
 .faq-arrow.active {
     transform: rotateZ(0deg);
-    transition: transform 0.3s;
+    transition: transform 1s;
 }
 
 
