@@ -1016,12 +1016,12 @@ header .nav-menu li {
   border-radius: 0.5rem;
 }
 
-td {
+.cart table tr td {
   text-align: center;
   width: 10rem;
 }
 
-table {
+.cart table {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
