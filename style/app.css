@@ -1073,6 +1073,7 @@ table {
   margin-left: 0.4rem;
   transform: rotateZ(180deg);
   transition: transform 0.8s;
+  cursor: pointer;
 }
 
 .faq-arrow.active {
