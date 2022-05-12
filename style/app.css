@@ -377,6 +377,15 @@ video {
   max-width: 100%;
 }
 
+.bolder {
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 h1, h2, h3, h4, h5, h6, a, p {
   color: black;
 }
@@ -552,10 +561,6 @@ header .nav-menu li {
   background-color: #1e8100;
 }
 
-.bolder {
-  font-weight: bolder;
-}
-
 .banner {
   display: flex;
   align-items: center;
@@ -616,11 +621,6 @@ header .nav-menu li {
   color: black;
   font-weight: bolder;
   font-size: 1.5rem;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
 }
 
 #hamburger-menu-button {

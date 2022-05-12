@@ -12,6 +12,15 @@ video {
   max-width: 100%;
 }
 
+.bolder {
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -632,10 +641,6 @@ header .nav-menu li {
   background-color: #1e8100;
 }
 
-.bolder {
-  font-weight: bolder;
-}
-
 .banner {
   display: flex;
   align-items: center;
@@ -700,11 +705,6 @@ header .nav-menu li {
   font-weight: bolder;
   font-size: 1.5rem;
   text-align: center;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
 }
 
 .desktop-two-columns-aside {
