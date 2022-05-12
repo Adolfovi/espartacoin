@@ -710,6 +710,10 @@ header .nav-menu li {
   text-align: center;
 }
 
+.info-bottom {
+  margin-top: 20rem;
+}
+
 .category-merchans-container {
   margin: 0 0 2rem 0;
 }

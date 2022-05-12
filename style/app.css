@@ -627,6 +627,10 @@ header .nav-menu li {
   display: none;
 }
 
+.info-bottom {
+  margin-top: 20rem;
+}
+
 .contact {
   padding: 0 15%;
   width: 70%;
