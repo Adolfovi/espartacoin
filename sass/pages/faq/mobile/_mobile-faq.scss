@@ -41,13 +41,15 @@ main {
 .faq-submain {
     position: relative;
     transform: rotateX(90deg);
-    transition: transform 0.3s;
+    transition: height 1s,transform 1s;
     width: 17rem;
+    height: 0;
 }
 
 .faq-submain.active {
     transform: rotateX(0deg);
-    transition: transform 0.3s;
+    transition: height 1s,transform 1s;    
+    height: 4rem;
 }
 
 .faq-element {

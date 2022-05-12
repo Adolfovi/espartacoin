@@ -1,0 +1,3 @@
+- Se generran espacios vacíos 
+    si el texto es grande
+- No quedan las flechas alienadas
