@@ -851,32 +851,6 @@ header .nav-menu li {
   text-align: center;
 }
 
-.quantity-number {
-  padding: 0.4rem 0.8rem 0.5rem 0.8rem;
-  background-color: white;
-  font-weight: bolder;
-}
-
-.quantity-minus {
-  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
-  font-size: 1rem;
-  border: 0;
-  cursor: pointer;
-  background-image: linear-gradient(to right, #c86040, #ff8f6c);
-  font-weight: bolder;
-  border-radius: 5px 0 0 5px;
-}
-
-.quantity-plus {
-  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
-  font-size: 1rem;
-  border: 0;
-  cursor: pointer;
-  background-image: linear-gradient(to right, #c86040, #ff8f6c);
-  font-weight: bolder;
-  border-radius: 0 5px 5px 0;
-}
-
 .merchan-product {
   margin: 1rem;
   width: 90%;
@@ -1048,56 +1022,30 @@ table {
   margin-bottom: 1rem;
 }
 
-.main-title {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+.quantity-number {
+  padding: 0.4rem 0.8rem 0.5rem 0.8rem;
+  background-color: white;
+  font-weight: bolder;
 }
 
-.faqs-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.faq-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.faq-arrow {
-  display: flex;
-  align-items: center;
-  margin-left: 0.4rem;
-  transform: rotateZ(180deg);
-  transition: transform 0.8s;
+.quantity-minus {
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  font-size: 1rem;
+  border: 0;
   cursor: pointer;
+  background-image: linear-gradient(to right, #c86040, #ff8f6c);
+  font-weight: bolder;
+  border-radius: 5px 0 0 5px;
 }
 
-.faq-arrow.active {
-  transform: rotateZ(0deg);
-  transition: transform 0.8s;
-}
-
-.faq-submain {
-  position: relative;
-  transform: rotateX(90deg);
-  transition: height 1.4s, transform 1s, margin-top 1s;
-  width: 17rem;
-  height: 0;
-}
-
-.faq-submain.active {
-  transform: rotateX(0deg);
-  transition: height 0.6s, transform 1s, margin-top 1s;
-  height: 6rem;
-  margin-top: 0.4rem;
-}
-
-.faq-element {
-  margin-bottom: 0.4rem;
+.quantity-plus {
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  font-size: 1rem;
+  border: 0;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #c86040, #ff8f6c);
+  font-weight: bolder;
+  border-radius: 0 5px 5px 0;
 }
 
 /*# sourceMappingURL=app.css.map */
